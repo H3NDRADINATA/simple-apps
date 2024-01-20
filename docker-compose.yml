@@ -4,9 +4,9 @@ services:
     container_name : web-apps
     images: image-din
     ports:
-      -5000:3000
+      - 5000:3000
     volumes:
-    - web-app-data:/app/public/images
+      - web-app-data:/app/public/images
 
 volumes:
   web-app-data:
