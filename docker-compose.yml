@@ -2,7 +2,7 @@ services:
   web-apps:
     build: ./apps
     container_name : web-apps
-    image: image-din
+    image: h3ndradinata/image-din
     ports:
       - 5000:3000
     volumes:
