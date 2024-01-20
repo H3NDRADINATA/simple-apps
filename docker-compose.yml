@@ -1,0 +1,12 @@
+services:
+  web-apps:
+    build: ./apps
+    container_name : web-apps
+    images: image-din
+    ports:
+      -5000:3000
+    volumes:
+    - web-app-data:/app/public/images
+
+volumes:
+  web-app-data:
